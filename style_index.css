@@ -1,0 +1,51 @@
+/* Desain header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header img {
+    max-width: 200px; /* Mengatur lebar maksimum logo */
+    max-height: 100px; /* Mengatur tinggi maksimum logo */
+}
+
+/* Desain navigasi */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/* Desain konten utama */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+/* Desain footer */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

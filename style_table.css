@@ -1,0 +1,65 @@
+/* Desain header */
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header img {
+    max-width: 200px; /* Mengatur lebar maksimum logo */
+    max-height: 100px; /* Mengatur tinggi maksimum logo */
+}
+
+/* Desain navigasi */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #28a745;
+}
+
+/* Desain tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #28a745;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+/* Gaya latar belakang baris genap dan ganjil */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* Desain footer */
+footer {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
